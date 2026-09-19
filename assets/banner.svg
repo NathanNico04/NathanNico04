@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" shape-rendering="crispEdges">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3FA9F5">
+        <animate attributeName="stop-color" values="#3FA9F5;#FF8A3C;#3FA9F5" dur="24s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#9AD8FF">
+        <animate attributeName="stop-color" values="#9AD8FF;#FFC46B;#9AD8FF" dur="24s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <pattern id="grass" width="32" height="16" patternUnits="userSpaceOnUse">
+      <rect width="32" height="16" fill="#5DBB3F"/>
+      <rect x="4" y="4" width="8" height="8" fill="#4E9E33"/>
+      <rect x="20" y="0" width="8" height="8" fill="#6FCF4B"/>
+    </pattern>
+    <pattern id="dirt" width="32" height="32" patternUnits="userSpaceOnUse">
+      <rect width="32" height="32" fill="#8B5A2B"/>
+      <rect x="0" y="0" width="8" height="8" fill="#7A4E24"/>
+      <rect x="16" y="8" width="8" height="8" fill="#9A6A38"/>
+      <rect x="8" y="20" width="8" height="8" fill="#6E4520"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="240" fill="url(#sky)"/>
+
+  <rect width="40" height="40" fill="#FFF176">
+    <animateTransform attributeName="transform" type="translate" values="-80 24; 1080 24" dur="40s" repeatCount="indefinite"/>
+  </rect>
+
+  <g fill="#FFFFFF" fill-opacity="0.9">
+    <g>
+      <rect x="0" y="0" width="120" height="24"/><rect x="24" y="-24" width="72" height="24"/>
+      <animateTransform attributeName="transform" type="translate" values="-200 60; 1100 60" dur="50s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="0" y="0" width="96" height="24"/><rect x="24" y="-24" width="48" height="24"/>
+      <animateTransform attributeName="transform" type="translate" values="-200 130; 1100 130" dur="65s" begin="-30s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="0" y="0" width="144" height="24"/><rect x="36" y="-24" width="84" height="24"/>
+      <animateTransform attributeName="transform" type="translate" values="-200 30; 1100 30" dur="80s" begin="-55s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <rect x="0" y="192" width="1000" height="16" fill="url(#grass)"/>
+  <rect x="0" y="208" width="1000" height="32" fill="url(#dirt)"/>
+
+  <g font-family="'Courier New', Courier, monospace" font-weight="bold" font-size="56" text-anchor="middle">
+    <text x="504" y="124" fill="#3B3B3B">Nathan Nicolessi</text>
+    <text x="500" y="120" fill="#FFFFFF">Nathan Nicolessi</text>
+  </g>
+</svg>
