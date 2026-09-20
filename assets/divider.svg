@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 16" width="1000" height="16" shape-rendering="crispEdges">
+  <defs>
+    <pattern id="grass" width="32" height="16" patternUnits="userSpaceOnUse">
+      <rect width="32" height="16" fill="#5DBB3F"/>
+      <rect x="4" y="4" width="8" height="8" fill="#4E9E33"/>
+      <rect x="20" y="0" width="8" height="8" fill="#6FCF4B"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="16" fill="url(#grass)"/>
+</svg>
